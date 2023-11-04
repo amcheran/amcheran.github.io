@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(142, 149, 155);
+    background: cover;
+    margin: 0;
+    
+}
+.nav1{
+    height: 100px;
+    width: auto;
+    background-color: black;
+    display: flex;
+
+}
+
+.logo{
+    display: flex;
+    font-weight: bolder;
+    border:3px solid black;
+    width: 250px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    height: 70px;
+    cursor: pointer;
+    
+
+}
+
+.text1{
+    color: red;
+    font-size: 40px;
+    border-bottom: 3px solid red;
+    border-right: 1px solid red;
+    padding-right: 1px;
+    
+}
+.text2{
+    font-size: 30px;
+    color: antiquewhite;
+    border-bottom: 1px solid red;
+    border-top: 1px solid red;
+    padding-left: 2px;
+}
+.text3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: indigo;
+    padding-top: 4px;
+}
+.menu-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    float:right;
+    margin: 10px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.bar {
+    width: 30px;
+    height: 4px;
+    background-color:purple;
+    transition: 40s ease-in-out;
+    
+}
+
+.bar:hover .dropdown-menu {
+    display: block;
+}
+
+.nav{
+    background:black;
+    width: 100%;
+    height:65px;
+    margin-left: 3px;
+    margin-right: 5px;
+    
+}
+.manu {
+   list-style:none;
+   align-items:center;
+   justify-content:center;
+   display:flex;
+   list-style-type: none;
+   Display: flex;
+   padding-left: 10px;
+   Display: flex;
+   margin-top: 30px;
+   
+
+
+
+}
+
+.manu  li{
+   list-style:none;
+   float:right;
+   font:#fff;
+   line-height:0px;
+   padding: 20px 50px 10px ;
+   align-items:center;
+   justify-content:center;
+   display:flex;
+   font-size: 20px;
+   
+}
+.manu li a{
+    text-decoration: none;
+    color: white;
+}
+.manu li a:hover {
+    
+    color:purple;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    list-style-type: none;
+    padding: 10px;
+    height: 200px;
+    width: 100px;
+    margin-right: 100px 100px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid palevioletred;
+}
+
+.dropdown-menu li {
+    margin:10px 15px ;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    margin-top: 20px;
+
+}
+.dropdown-menu:hover li{
+    display: block;
+    position: absolute;
+}
+
+.dropdown-menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+.flexbox1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    
+    
+
+
+}
+.aud{
+    height: 400px;
+    width: 320px;
+    border: 2px solid rgb(39, 39, 39);
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(155, 153, 153);
+    color: #fff;
+    border-radius: 20px;
+
+
+}
+.flexbox2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+    
+
+
+}
+.aud2{
+    height: 400px;
+    width: 320px;
+    border: 2px solid rgb(39, 39, 39);
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    color: #fff;
+    border-radius:20px;
+    background-color: rgb(155, 153, 153);
+    
+
+}
+.aboutsong{
+    margin:10px;
+    width: 250px;
+    height: 300px;
+    background: rgb(39, 37, 37);
+    justify-content: center;
+    align-items: center;
+}

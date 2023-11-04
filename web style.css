@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+
+}
+
+body{
+   display: block;
+}
+.nav1{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-left: 500px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    background: rgba(80,0,0);
+    margin-top: 5px;
+    color: purple;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+ 
+
+.nav{
+      background:black;
+      width: 100%;
+      height:65px;
+      margin-left: 3px;
+      margin-right: 5px;
+      
+}
+.nav ul{
+     list-style:none;
+     align-items:center;
+     justify-content:center;
+     display:flex;
+
+
+
+}
+
+.nav ul li{
+     list-style:none;
+     float:right;
+     color:#fff;
+     line-height:20px;
+     padding: 20px 50px 10px ;
+     align-items:center;
+     justify-content:center;
+     display:flex;
+     font-size: 14px;
+
+
+
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav ul li a:hover{
+    color: blue;
+}
+
+.glass{
+    border: 1px solid purple;
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    background: purple;
+
+
+
+
+}
+.nav .logo{
+  font-size: 18px;
+  color:purple;
+  height: 10px;
+  padding: 20px 20px;
+  float: left;
+  font-family: "Comic Sans MS";
+}
+
+ .first{
+     color: purple;
+     text-align:center;
+     padding-top: 10px;
+
+
+
+ }
+form{
+    margin: auto;
+    width:400px;
+    margin-top:100px;
+    background:transparent;
+    border: 2px solid purple;
+    border-radius: 30px;
+    background:rgba(0,0,31);
+
+
+
+}
+.nt{
+    margin-top: 20px;
+    width: 300px;
+    border: none;
+    color: purple;
+    border: 1px solid rgba(0,0,20);
+    margin-left: 17px;
+    background:rgba(0,0,41);
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.second{
+    margin-top: 10px;
+    width: 300px;
+    background: rgba(0,0,49);
+    color: purple;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    border: 1px solid rgba(0,0,20);
+}
+.third{
+    padding-left: 60px;
+    border:0;
+    color: blue;
+
+
+}
+.name-class{
+    padding-left: 50px;
+
+}
+.pass-class{
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+.but{
+    width: 300px;
+    border-radius:10px;
+    height: 30px;
+    border: 1px solid purple;
+    background: purple;
+    font-style: bold;
+}
+.make{
+    font-size: 13px;
+    border: none;
+    color:white;
+    padding-left: 50px;
+
+}
+.fa-solid fa-house{
+    width:90px;
+    height:20px;
+
+}
+.container{
+    width: 100%;
+    height:300px;
+    background: gray;
+    font-size: 20px;
+    padding-top: 10px;
+}
+h1{
+
+}
+h2{
+    padding-left: 40%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+}
+manu{
+    position: ;
+}
+.sat{
+   background: white;
+}
+.container101{
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    margin-left: 30%;
+    padding-left: 80px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: red;
+
+}
+.profiletext{
+    padding-left: 30%;
+    color: black;
+    font-size: 20px;
+}
